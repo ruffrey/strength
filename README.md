@@ -1,8 +1,12 @@
 # Estimate password strength in javascript
 
-On a scale of 0=weak to 5=strong
+On a scale of 0 = weak to 5.0 = strong.
 
 	$  npm install strength --save
+
+[![NPM version](https://badge.fury.io/js/strength.svg)](http://badge.fury.io/js/strength)
+
+No dependencies.
 
 ## Usage
 
@@ -14,10 +18,12 @@ On a scale of 0=weak to 5=strong
 
 	console.log(howStrong); // 0
 
-## More features
+## Password criteria
 
-* none
-* send a PR my friend
+* automatically fails 10,000 most common passwords
+* letters, case, numbers, special characters
+* length
+* repitition
 
 ## Tests
 
