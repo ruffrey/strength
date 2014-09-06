@@ -1,0 +1,30 @@
+{
+  "name": "strength",
+  "version": "0.1.3",
+  "description": "Quick and dirty password strength evaluation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruffrey/strength"
+  },
+  "keywords": [
+    "password",
+    "strength",
+    "auth",
+    "users",
+    "security"
+  ],
+  "author": "jeffhparrish@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruffrey/strength/issues"
+  },
+  "homepage": "https://github.com/ruffrey/strength",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
